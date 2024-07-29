@@ -4,9 +4,10 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    environemnt:
+    user: vscode
+    environment:
       TZ: Asisa/Tokyo
     volumes:
-      - .:/workspace
+      - .:/workspace:cached
     command: /bin/bash
     tty: true

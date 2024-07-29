@@ -6,4 +6,5 @@
     "editor.defaultFormatter": "ms-python.debugpy",
     "editor.wordBasedSuggestions": "off"
   },
+  "notebook.formatOnSave.enabled": true,
 }
